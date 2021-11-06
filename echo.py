@@ -1,3 +1,6 @@
+
 import sys
 import json
-print(sys.argv)
+inputs = sys.argv[1]
+inputs = json.loads(inputs)
+print(inputs)
